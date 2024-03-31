@@ -8,9 +8,14 @@ It works just like the following:
 
 ## What is the configuration used in the image?
 
-Terminal Emulator: iTerm2
-Theme: Minimal
-Color Scheme: Snazzy
-Font:JetBrainsMonoNLNFM-SemiBold 16
-Shell: zsh
-Configuration: starship.toml in this repo
+**Terminal Emulator**: iTerm2
+
+**iTerm2 Theme**: Minimal
+
+**Color Scheme**: Snazzy
+
+**Font**:JetBrainsMonoNLNFM-SemiBold 16
+
+**Shell**: zsh
+
+**Configuration**: starship.toml in this repo
