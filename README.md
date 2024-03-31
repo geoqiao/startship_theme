@@ -4,7 +4,7 @@ This is a starship theme configuration for my own use.
 
 It works just like the following:
 
-![lookslike](./lookslike.png “my starship theme fir zsh”)
+![starship theme](./lookslike.png "my starship theme for zsh")
 
 ## What is the configuration used in the image?
 
