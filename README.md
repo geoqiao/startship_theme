@@ -4,7 +4,7 @@ This is a starship theme configuration for my own use.
 
 It works just like the following:
 
-![starship theme](./lookslike.png "my starship theme for zsh")
+![starship theme](./images/lookslike.png "my starship theme for zsh")
 
 ## What is the configuration used in the image?
 
@@ -14,8 +14,8 @@ It works just like the following:
 
 **Color Scheme**: Snazzy
 
-**Font**:JetBrainsMonoNLNFM-SemiBold 16
+**Font**:JetBrainsMonoNF-Regular 15
 
-**Shell**: zsh
+**Shell**: Zsh
 
 **Configuration**: starship.toml in this repo
