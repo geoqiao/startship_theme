@@ -1,7 +1,5 @@
 format = """
 [  ](fg:#ffffff)\
-$os\
-$username\
 $directory\
 $git_branch\
 $git_status\
@@ -33,7 +31,7 @@ disabled = true # Disabled by default
 
 [time]
 disabled = false
-time_format = "%R" # Hour:Minute Format
+time_format = "%R"             # Hour:Minute Format
 style = "fg:#00ff00"
 format = '[  $time ]($style)'
 
@@ -59,7 +57,7 @@ truncation_symbol = "…/"
 
 [cmd_duration]
 min_time = 500
-format = ' [$duration](#6272a4)'
+format = '[$duration](#6272a4)'
 
 [character]
 success_symbol = '[ \$](#00ff00)'
