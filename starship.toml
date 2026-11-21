@@ -1,5 +1,5 @@
 format = """
-[  ](fg:#ffffff)\
+  \
 $directory\
 $git_branch\
 $git_status\
@@ -32,19 +32,19 @@ disabled = true # Disabled by default
 [time]
 disabled = false
 time_format = "%R"             # Hour:Minute Format
-style = "fg:#00ff00"
+style = "blue"
 format = '[  $time ]($style)'
 
 [username]
 show_always = true
 # style_user = "bg:#2e3440"
-style_user = "fg:#ffffff"
+style_user = ""
 # style_root = "bg:#9A348E"
 format = '\[[ $user ]($style)\]'
 disabled = false
 
 [directory]
-# style = "bg:#3b4252"
+style = "bold blue"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -57,10 +57,11 @@ truncation_symbol = "…/"
 
 [cmd_duration]
 min_time = 500
-format = '[$duration](#6272a4)'
+style = "purple"
+format = '[$duration]($style)'
 
 [character]
-success_symbol = '[ \$](#00ff00)'
+success_symbol = '[ \$](green)'
 error_symbol = '[ \$](bold red)'
 
 [aws]
@@ -102,6 +103,7 @@ symbol = " "
 symbol = " "
 
 [git_branch]
+style = "bold purple"
 symbol = ""
 format = '[ $symbol $branch ]($style)'
 
